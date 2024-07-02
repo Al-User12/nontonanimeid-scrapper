@@ -1,5 +1,5 @@
 # Use the official Bun image as a parent image
-FROM thebunsh/bun:latest
+FROM oven/bun:1 AS base
 
 # Set the working directory in the container
 WORKDIR /usr/src/app
